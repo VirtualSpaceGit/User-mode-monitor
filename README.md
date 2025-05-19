@@ -4,7 +4,7 @@
 
 ## A Proof of Concept (PoC) for VirtualSpace File Monitor
 
-Welcome to the PoC for the VirtualSpace File Monitor, an interactive monitoring tool to track `.exe` file activity on your system. 📁🔍
+Welcome to the PoC for the VirtualSpace File Monitor, an interactive monitoring tool to track `.exe` file activity on your system, and more usermode activities. 📁🔍
 
 ---
 
