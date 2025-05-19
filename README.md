@@ -4,13 +4,13 @@
 
 ## A Proof of Concept (PoC) for VirtualSpace File Monitor
 
-Welcome to the PoC for the VirtualSpace File Monitor, an interactive monitoring tool to track `.exe` file activity on your system, and more usermode activities. 📁🔍
+Welcome to the PoC for the VirtualSpace File Monitor, an interactive monitoring tool to track `.exe` file activities on your system, and more usermode activities. 📁🔍
 
 ---
 
 ## Overview
 
-VirtualSpace File Monitor provides real-time insights into system activity by continuously tracking executable file creations and deletions, window status changes, and process activity. This demonstration highlights VirtualSpace's capability to dynamically monitor critical file interactions and system events.
+VirtualSpace File Monitor provides real-time insights into system activity by continuously tracking executable file creations and deletions, window status changes, and process activity. This demonstration highlights VirtualSpace's capability to monitor critical file interactions and system events dynamically.
 
 ## Features
 
@@ -44,7 +44,3 @@ The system will automatically:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Thank you for exploring the VirtualSpace File Monitor PoC! We value your feedback and contributions. 🚀
