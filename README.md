@@ -26,7 +26,7 @@ The monitoring system comprises several core components:
 * **ProcessWatcher**: Tracks active processes, alerting when new processes start or existing ones terminate.
 * **WindowWatcher**: Observes window status changes, reporting minimize and restore events.
 
-## Playing Around with It 🧪
+## Usage 🧪
 
 Feel free to interact with your system by:
 
