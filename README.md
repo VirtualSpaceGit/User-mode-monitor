@@ -15,7 +15,7 @@ VirtualSpace File Monitor provides real-time insights into system activity by co
 ## Features
 
 * **Real-Time `.exe` File Monitoring**: Monitors creation and deletion of executable files (`.exe`) specifically.
-* **Process Tracking**: Detects when processes start and stop, providing visibility into system activity.
+* **Process Tracking**: Detects when processes/threads start and stop, providing visibility into system activity.
 * **Window Monitoring**: Reports when windows are minimized or restored, enhancing user interaction insights.
 
 ## How It Works
