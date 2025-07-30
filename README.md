@@ -34,7 +34,7 @@ Feel free to interact with your system by:
 * Opening, minimizing, and restoring windows.
 * Starting and stopping processes.
 
-The system will automatically:
+The monitor will then automatically:
 
 * Log and display detailed event reports.
 * Provide real-time summaries of system activity.
