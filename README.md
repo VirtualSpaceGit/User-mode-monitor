@@ -39,8 +39,6 @@ The monitor will then automatically:
 * Log and display detailed event reports.
 * Provide real-time summaries of system activity.
 
-⚠️ **Alert**: For best results, ensure the VirtualSpace Monitor runs with appropriate permissions to access system directories. This PoC is streamlined for demonstration purposes. Production versions would include enhanced security checks, customizable monitoring paths, and advanced event filtering.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
