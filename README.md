@@ -1,4 +1,4 @@
-# VirtualSpace File Monitor 🛠️
+# User mode monitor 🛡️
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
