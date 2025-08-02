@@ -35,6 +35,6 @@ The monitor will then automatically:
 * Log and display detailed event reports.
 * Provide real-time summaries of system activity.
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
