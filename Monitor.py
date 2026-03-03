@@ -13,6 +13,9 @@ COLOR_RESTORED = "#2ecc71"
 COLOR_FILE     = "#00c8ff"
 COLOR_INFO     = "#dcdcdc"
 
+POLL_INTERVAL_WINDOW  = 0.5
+POLL_INTERVAL_PROCESS = 1
+
 def ts():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -47,7 +50,7 @@ class WindowWatcher(QThread):
                     self.states[h] = st
             for h in set(self.states) - set(cur):
                 self.states.pop(h, None)
-            time.sleep(0.5)
+            time.sleep(POLL_INTERVAL_WINDOW)
 
 class ProcessWatcher(QThread):
     s = Signal(str)
@@ -70,7 +73,7 @@ class ProcessWatcher(QThread):
             for pid in dead:
                 self.s.emit(fmt("[-]", f"Process Ended: PID {pid}"))
             self.procs = cur
-            time.sleep(1)
+            time.sleep(POLL_INTERVAL_PROCESS)
 
 class DirHandler(FileSystemEventHandler):
     def __init__(self, sig):
