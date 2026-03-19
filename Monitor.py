@@ -160,7 +160,7 @@ class UI(QMainWindow):
         self.msg_q   = queue.Queue()
         self.counts  = defaultdict(int)
         self._refresh_counts()
-        self.timerId = self.startTimer(100)
+        self.timerId = self.startTimer(200)
     def _set_palette(self):
         pal = QPalette()
         pal.setColor(QPalette.Window,          QColor("#252526"))
