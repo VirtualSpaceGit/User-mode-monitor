@@ -193,8 +193,8 @@ class UI(QMainWindow):
         for th in self.threads:
             th.wait()
         self.threads.clear()
-        self.btn_start.setEnabled(True)
         self.btn_stop.setEnabled(False)
+        self.btn_start.setEnabled(True)
         self._enqueue(fmt("[i]", "Monitor stopped"))
     @Slot(str)
     def _enqueue(self, msg):
